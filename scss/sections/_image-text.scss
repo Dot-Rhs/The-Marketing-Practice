@@ -1,0 +1,26 @@
+.image-text--button {
+    max-width: fit-content;
+}
+
+
+
+@media (min-width: 992px) {
+    .image-text {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .image-text--image {
+        padding: 0;
+    }
+
+    .image-text--copy {
+        max-width: 30vw;
+    }
+
+    .main-margin {
+        margin-left: 6rem;
+    }
+    
+
+}

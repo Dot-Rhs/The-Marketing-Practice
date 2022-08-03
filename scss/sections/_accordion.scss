@@ -1,0 +1,10 @@
+@media (min-width: 992px) {
+   .accordion-margin {
+        padding: 6rem;
+   } 
+}
+
+
+.accordion-button:focus {
+   box-shadow: 0 0 0 .25rem #FFF !important;
+}

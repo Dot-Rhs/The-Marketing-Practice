@@ -1,0 +1,14 @@
+//Import _custom.scss
+@use 'custom';
+
+//Import partials from components folder
+@use 'components/buttons';
+@use 'components/mixins';
+@use 'components/typography';
+
+//Import partials from sections folder
+@use 'sections/primary';
+@use 'sections/image-text';
+@use 'sections/accordion';
+@use 'sections/carousel';
+@use 'sections/footer';

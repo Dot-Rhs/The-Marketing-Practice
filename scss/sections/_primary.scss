@@ -1,0 +1,27 @@
+.max-width {
+    max-width: 1440px;
+}
+
+.primary {
+    background-color: rgb(194, 68, 68);
+    background-image: url("/assets/img/95a2b867116d4975485274cae1428cf4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+
+
+    @media (min-width: 992px) {
+        &--text {
+            padding-left: 6.5rem;
+            padding-right: 6.5rem;
+        }
+
+        &--logo {
+            padding: 3rem !important;
+        }
+
+    }
+
+
+}

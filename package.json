@@ -1,0 +1,22 @@
+{
+  "name": "the-marketing-practice",
+  "version": "1.0.0",
+  "description": "Coding challenge for The Marketing Practice",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "Coding-challenge",
+    "TMP",
+    "Junior-role"
+  ],
+  "author": "Dheep Shemare",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.54.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  }
+}
