@@ -1,5 +1,6 @@
 {
   "name": "the-marketing-practice",
+  "type": "module",
   "version": "1.0.0",
   "description": "Coding challenge for The Marketing Practice",
   "main": "index.js",
