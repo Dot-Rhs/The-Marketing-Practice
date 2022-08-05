@@ -10798,6 +10798,12 @@ textarea.form-control-lg {
     margin-left: 6rem;
   }
 }
+@media (max-width: 991px) {
+  .image-text {
+    padding: 1.2em;
+    justify-content: center !important;
+  }
+}
 @media (min-width: 992px) {
   .accordion-margin {
     padding: 6rem;
@@ -10807,6 +10813,16 @@ textarea.form-control-lg {
   box-shadow: 0 0 0 0.25rem #FFF !important;
 }
 
+.accordion-button, .accordion-body {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+@media (max-width: 992px) {
+  .accordion, .accordion-margin section {
+    padding: 0 !important;
+  }
+}
 .swiper {
   width: 100%;
   height: 300px;
@@ -10850,7 +10866,7 @@ textarea.form-control-lg {
   transform: scale(4);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .swiper-button-next {
     display: none !important;
   }
@@ -10886,8 +10902,8 @@ footer .footer--ul {
   footer {
     height: 33em;
     padding-top: 50px;
-    padding-right: 0;
-    padding-left: 0;
+    padding-right: 1.2em;
+    padding-left: 1.2em;
   }
   footer .footer--logo {
     margin-top: 91px;
