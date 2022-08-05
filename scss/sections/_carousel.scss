@@ -29,32 +29,26 @@
             object-fit: cover;
         }
     }
-
-    .swiper-button-next {
-        transform: scale(2.8);
-        right: 4rem !important;
-        top: 15rem !important;
-    }
     
-    @media (min-width: 992px) {
+    @media (min-width: 768px) {
         .swiper-wrapper {
             position: relative;
             left: 6.5rem;
         }
-    
-        .swiper-button-next {
-            transform: scale(3.5);
-            right: 11% !important;
-            top: 50% !important
-        }
-    
     }
 }
 
+.swiper-button-next {
+    position: relative !important;
+    left: 82% !important;
+    top: 2em !important;
+    transform: scale(4);
+}
 
-
-
-
-
+@media (max-width: 767px) {
+    .swiper-button-next {
+        display: none !important;
+    }
+}
 
 
