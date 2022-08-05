@@ -1,8 +1,33 @@
-@media (min-width: 992px) {
-    footer {
-        height: auto;
-        background: linear-gradient(180deg, #FF4D54 11.72%, #CC3E43 100%);
-        padding: 80px 6rem 1rem 6rem;
+footer {
+    background: linear-gradient(180deg, #FF4D54 11.72%, #CC3E43 100%);
+    padding-top: 80px;
     
+    .footer--logo {
+        margin-top: 91px;
+        margin-bottom: 49px;
+    }
+
+    .footer--ul-1, .footer--ul-2 {
+        display: none;
+    }
+
+    .footer--legal-1, .footer--legal-2 {
+        max-width: max-content;
+        // justify-content: start !important;
+    }
+    
+}
+
+@media (min-width: 768px) {
+    footer {
+        padding: 80px 7vw 1rem 6vw;
+
+        .footer--logo {
+            margin-top: 190px;
+        }
+        
+        .footer--ul-1, .footer--ul-2 {
+            display: block;
+        }
     }    
 }
