@@ -10822,6 +10822,9 @@ textarea.form-control-lg {
   .accordion, .accordion-margin section {
     padding: 0 !important;
   }
+  .accordion-button, .accordion-body {
+    font-weight: 300;
+  }
 }
 .swiper {
   width: 100%;
