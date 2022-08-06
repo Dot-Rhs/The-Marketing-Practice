@@ -10769,6 +10769,7 @@ textarea.form-control-lg {
   background-size: cover;
   background-position: center;
   height: 60vh;
+  padding: 1.2em;
 }
 @media (min-width: 992px) {
   .primary--text {
@@ -10780,6 +10781,11 @@ textarea.form-control-lg {
   }
 }
 
+@media (min-width: 992px) {
+  .primary {
+    padding: 0.2em;
+  }
+}
 .image-text--button {
   max-width: fit-content;
 }

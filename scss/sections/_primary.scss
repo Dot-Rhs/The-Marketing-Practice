@@ -9,7 +9,7 @@
     background-size: cover;
     background-position: center;
     height: 60vh;
-
+    padding: 1.2em;
 
     @media (min-width: 992px) {
         &--text {
@@ -24,4 +24,10 @@
     }
 
 
+}
+
+@media (min-width: 992px) {
+    .primary {
+        padding: 0.2em;
+    }
 }
